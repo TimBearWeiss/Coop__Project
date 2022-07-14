@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bd8947-c6c3-47cf-8760-1fb33de0cddf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/blocks/header/__nav/__menu/header__nav__menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__nav/header__nav__logo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__nav/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/home/__header/home__header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/main/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/all_news.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__about/home__about.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__actions/__cards/actions__cards.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__career/__card/career__card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__materials/__cards/materials__cards.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__new_materials/__heading_column/new__materials__heading_column.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__new_materials/__slider/__slide/new_materials__slider__slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__news/__heading_column/news__heading_column.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__news/__slider/__slide/news__slider__slide.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__special_projects/__card/special_projects__card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/__special_projects/special_projects__btn.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/journal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/typical_page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/PT-Sans_Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/PT-Sans_Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/WF_Semibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/WF_Semibold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/fonts.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wagan/Desktop/dev/projito-project",
+    "last_opened_file_path": "C:/Users/wagan/Desktop/coop__project",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
