@@ -10,3 +10,9 @@
   margin-bottom: 0;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__politics-item {
+    font-size: 14px;
+  }
+}

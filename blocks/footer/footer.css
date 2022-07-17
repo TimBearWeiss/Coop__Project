@@ -3,3 +3,9 @@
   margin: 72px auto 94px;
 }
 
+@media screen and (max-width: 1400px) {
+  .footer {
+    margin: 32px 16px 22px;
+  }
+}
+
