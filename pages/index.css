@@ -33,6 +33,8 @@
 @import url('../blocks/footer/__social-item/footer__social-item.css');
 @import url('../blocks/footer/__social-image/footer__social-image.css');
 @import url('../blocks/footer/__social-name/footer__social-name.css');
+@import url('../blocks/footer/__about/footer__about.css');
+@import url('../blocks/footer/__nav/footer__nav.css');
 
 @import url(../blocks/career/career.css);
 @import url(../blocks/career/__container-row/career__container-row.css);

@@ -3,3 +3,11 @@
   height: 18px;
   margin-right: 8px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__social-image {
+    width: 28px;
+    height: 28px;
+    margin-right: 0;
+  }
+}
