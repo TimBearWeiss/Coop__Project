@@ -1,0 +1,24 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/materials/materials.css");
+@import url("../blocks/materials/__container/materials__container.css");
+@import url("../blocks/materials/__container-row/materials__container-row.css");
+@import url("../blocks/container/__heading/container__heading.css");
+
+@import url("../blocks/card/card.css");
+@import url("../blocks/card/__bage/card__bage.css");
+@import url("../blocks/card/__excerpt/card__excerpt.css");
+@import url("../blocks/card/__image/card__image.css");
+@import url("../blocks/card/__title/card__title.css");
+
+@import url(../blocks/career/career.css);
+@import url(../blocks/career/__container-row/career__container-row.css);
+@import url(../blocks/career/__photo/career__photo.css);
+@import url(../blocks/career/card-info/career__card-info.css);
+@import url(../blocks/career/__title/career__title.css);
+@import url(../blocks/career/__text/career__text.css);
+@import url(../blocks/career/__actions/career__actions.css);
+
+@import url(../blocks/btn/btn.css);
