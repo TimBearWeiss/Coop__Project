@@ -1,0 +1,11 @@
+.footer__menu-list {
+  padding: 0;
+  height: 85px;
+  border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+  border-top: 1px solid rgba(50, 50, 50, 0.3);
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 32px;
+}

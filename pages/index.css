@@ -22,6 +22,18 @@
 @import url('../blocks/header/__submenu-item/header__submenu-item.css');
 @import url('../blocks/header/__submenu-link/header__submenu-link.css');
 
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__menu-item/footer__menu-item.css');
+@import url('../blocks/footer/__menu-list/footer__menu-list.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__politics-list/footer__politics-list.css');
+@import url('../blocks/footer/__politics-item/footer__politics-item.css');
+@import url('../blocks/footer/__social-list/footer__social-list.css');
+@import url('../blocks/footer/__social-item/footer__social-item.css');
+@import url('../blocks/footer/__social-image/footer__social-image.css');
+@import url('../blocks/footer/__social-name/footer__social-name.css');
+
 @import url(../blocks/career/career.css);
 @import url(../blocks/career/__container-row/career__container-row.css);
 @import url(../blocks/career/__photo/career__photo.css);
