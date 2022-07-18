@@ -1,4 +1,6 @@
 .header__submenu-list {
+  opacity: 0;
+  visibility: hidden;
   display: flex;
   max-width: 1400px;
   min-height: 50px;
@@ -7,4 +9,5 @@
   list-style: none;
   margin: 0 auto;
   padding: 0;
+  transition: .1s ease;
 }
