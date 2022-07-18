@@ -1,0 +1,8 @@
+.actions__cards_item-link {
+	display: flex;
+	align-items: center;
+	width: 498.17px;
+	height: 50px;
+	margin: 36px 32px ;
+	justify-content: space-between;
+}

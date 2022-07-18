@@ -1,0 +1,9 @@
+.actions__container-row {
+	margin: 0 auto;
+	max-width: 1144px;
+	max-height: 572px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 19px;
+}
