@@ -63,3 +63,13 @@
 @import url("../blocks/popup/__close-button/popup__close-button.css");
 @import url("../blocks/btn/_arrow-l/button_arrow-l.css");
 @import url(../blocks/btn/btn.css);
+
+@import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__container/special-projects__container.css);
+@import url(../blocks/special-projects/__btn/special-projects__btn.css);
+@import url(../blocks/special-projects/__card/special-projects__card.css);
+@import url(../blocks/special-projects/__card-content/special-projects__card-content.css);
+@import url(../blocks/special-projects/__card-title/special-projects__card-title.css);
+@import url(../blocks/special-projects/__card-text/special-projects__card-text.css);
+@import url(../blocks/special-projects/__card-date/special-projects__card-date.css);
+@import url(../blocks/special-projects/__card-img/special-projects__card-img.css);
