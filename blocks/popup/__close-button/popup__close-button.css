@@ -1,7 +1,7 @@
 .popup__close-button {
-	width: 16.71px;
-	height: 16.71px;
-	background: transparent url(../../../images/popup-close.svg) center no-repeat;
+	width: 24px;
+	height: 24px;
+	background: transparent url('../../../images/components/сlose.svg') center no-repeat;
 	position: absolute;
 	top: 3.65px;
 	left: -20.36px;

@@ -39,10 +39,7 @@
 @import url('../blocks/header/__nav/header__nav.css');
 @import url('../blocks/header/__menu-list/header__menu-list.css');
 @import url('../blocks/header/__menu-item/header__menu-item.css');
-@import url('../blocks/header/__menu-link/header__menu-link.css');
 @import url('../blocks/header/__submenu-list/header__submenu-list.css');
-@import url('../blocks/header/__submenu-item/header__submenu-item.css');
-@import url('../blocks/header/__submenu-link/header__submenu-link.css');
 @import url('../blocks/header/__mobile-menu/header__mobile-menu.css');
 
 @import url('../blocks/popup/popup.css');
@@ -86,3 +83,11 @@
 @import url('../blocks/special-projects/__card-text/special-projects__card-text.css');
 @import url('../blocks/special-projects/__card-date/special-projects__card-date.css');
 @import url('../blocks/special-projects/__card-img/special-projects__card-img.css');
+
+@import url('../blocks/popup-menu/popup-menu.css');
+@import url('../blocks/popup-menu/__close-button/popup-menu__close-button.css');
+@import url('../blocks/popup-menu/__menu-item/popup-menu__menu-item.css');
+@import url('../blocks/popup-menu/__menu-list/popup-menu__menu-list.css');
+@import url('../blocks/popup-menu/__header/popup-menu__header.css');
+
+@import url('../blocks/link/link.css');

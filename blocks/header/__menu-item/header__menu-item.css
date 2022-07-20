@@ -6,6 +6,7 @@
   color: #323232;
   box-sizing: content-box;
   border-bottom: 1px solid transparent;
+  cursor: pointer;
 }
 
 .header__menu-item:last-of-type {
@@ -14,10 +15,9 @@
 
 .header__menu-item:hover {
   border-bottom: 1px solid #323232;
-  cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .header__menu-item {
     font-size: 14px;
     padding: 16px 10px;
