@@ -1,0 +1,12 @@
+.header {
+  background: #F7F4F0;
+  padding: 0 16px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 48px;
+    padding: 13px 12px 0;
+    box-sizing: border-box;
+  }
+}
