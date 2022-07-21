@@ -2,11 +2,11 @@
   width: 329px;
   height: 50px;
   border-radius: 8px;
-
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
   color: #323232;
+  cursor: pointer;
 }

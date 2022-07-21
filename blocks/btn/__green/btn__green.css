@@ -1,0 +1,8 @@
+.btn__green {
+  background: #a5cdab;
+  border: #a5cdab;
+}
+
+.btn__green:hover {
+  background: #97ba9c;
+}
