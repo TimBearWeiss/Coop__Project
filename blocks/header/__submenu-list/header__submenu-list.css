@@ -13,7 +13,7 @@
   transition: .1s ease;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .header__submenu-list {
     column-gap: 32px;
   }
