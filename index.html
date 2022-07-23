@@ -58,7 +58,7 @@
           </p>
           <div class="actions__cards_item-link">
             <p class="cards_learn-more">Подробнее</p>
-            <button class="button_arrow-l"></button>
+            <button class="round-btn round-btn_color_green"></button>
           </div>
         </div>
         <div class="actions__cards-item">
@@ -69,7 +69,7 @@
           </p>
           <div class="actions__cards_item-link">
             <p class="cards_learn-more">Узнать больше</p>
-            <button class="button_arrow-l"></button>
+            <button class="round-btn round-btn_color_green"></button>
           </div>
         </div>
         <div class="actions__cards-item">
@@ -82,7 +82,7 @@
           </p>
           <div class="actions__cards_item-link">
             <p class="cards_learn-more">Ознакомиться</p>
-            <button class="button_arrow-l"></button>
+            <button class="round-btn round-btn_color_green"></button>
           </div>
         </div>
         <div class="actions__cards-item">
@@ -92,47 +92,37 @@
           </p>
           <div class="actions__cards_item-link">
             <p class="cards_learn-more">Перейти к архиву</p>
-            <button class="button_arrow-l"></button>
+            <button class="round-btn round-btn_color_green"></button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="slider__slide news__slider__slide">
-    <div class="news__slider__slide__meta">
-      <div class="news__slider__slide__meta__item date">
-        27.01.2022
-      </div>
-      <div class="news__slider__slide__meta__item rubric"></div>
+  <section class="slider news">
+    <div class="slider__description">
+      <h2 class="slider__title">Новости</h2>
+      <button class="slider__button">
+        <span class="btn__title">Ко всем новостям</span>
+        <button class="round-btn round-btn_color_green"></button>
+      </button>
     </div>
-    <div class="news__slider__slide__img">
-      <img src="" alt="post__img"/>
+    <div class="article-list">
+      <h2 class="article-list__title">Свежее</h2>
+      <button class="round-btn round-btn_color_transparent"></button>
+      <button class="round-btn round-btn_color_transparent"></button>
+      <article class="article">
+        <p class="article__date">27.01.2022</p>
+        <p class="article__category">Спецпроект</p>
+        <img src="" alt="Изображение новости" class="article__image"/>
+        <p class="article__description">
+          Центр изучения эго-документов «Прожито» проведёт
+          исследовательскую лабораторию, посвящённую работе
+          с дембельскими альбомами
+        </p>
+      </article>
     </div>
-    <p class="news__slider__slide__excerpt">
-      Центр изучения эго-документов «Прожито» проведёт
-      исследовательскую лабораторию, посвящённую работе
-      с дембельскими альбомами
-    </p>
-  </div>
-  <div class="slider__slide news__slider__slide">
-    <div class="news__slider__slide__meta">
-      <div class="news__slider__slide__meta__item date">
-        27.01.2022
-      </div>
-      <div class="news__slider__slide__meta__item rubric">
-        Лекция
-      </div>
-    </div>
-    <div class="news__slider__slide__img">
-      <img src="" alt="post__img"/>
-    </div>
-    <p class="news__slider__slide__excerpt">
-      4 октября на фестивале «Тверской переплёт» выступит Михаил
-      Мельниченко — историк, директор Центра «Прожито» ЕУСПб
-    </p>
-  </div>
-  <div class="slider__progress"></div>
+  </section>
 
   <section class="materials">
     <div class="container materials__container">
@@ -196,10 +186,14 @@
           и земледелием занимались неохотно».
         </p>
         <div class="career__actions">
-          <button class="btn btn__transparent">
-            Перейти к материалу &nbsp;<img src="./images/arrow.svg">
+          <button class="btn btn_color_transparent">
+            <span class="btn__title">Перейти к материалу</span>
+            <img src="./images/components/right-arrow.svg" class="btn__image" alt="Кнопка">
           </button>
-          <button class="btn btn__green">Оставить заявку&nbsp; <img src="./images/arrow.svg"></button>
+          <button class="btn btn_color_green">
+            <span class="btn__title">Оставить заявку</span>
+            <img src="./images/components/right-arrow.svg" class="btn__image" alt="Кнопка">
+          </button>
         </div>
       </div>
     </div>
@@ -334,7 +328,10 @@
       </div>
 
     </div>
-    <button class="btn btn__green special-projects__btn">Все спецпроекты &nbsp; <img src="./images/arrow.svg"></button>
+    <button class="btn btn_color_green special-projects__btn">
+      <span class="btn__title">Все спецпроекты</span>
+      <img src="./images/components/right-arrow.svg" class="btn__image" alt="Кнопка">
+    </button>
 
   </section>
 </main>
