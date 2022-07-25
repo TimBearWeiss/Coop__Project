@@ -1,0 +1,10 @@
+.news-feed {
+    margin: 0 auto;
+    max-width: 1144px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 80px;
+    row-gap: 62px;
+    justify-content: center;
+    align-items: center;
+}
