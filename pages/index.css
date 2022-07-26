@@ -113,3 +113,10 @@
 @import url('../blocks/article/__image/article__image.css');
 @import url('../blocks/article/__date/article__date.css');
 @import url('../blocks/article/__category/article__category.css');
+
+@import url('../blocks/news-feed/news-feed.css');
+@import url('../blocks/news-feed/__article/news-feed__article.css');
+@import url('../blocks/news-feed/__date/news-feed__date.css');
+@import url('../blocks/news-feed/__image/news-feed__image.css');
+@import url('../blocks/news-feed/__tag/news-feed__tag.css');
+@import url('../blocks/news-feed/__text/news-feed__text.css');
