@@ -4,6 +4,7 @@
   line-height: 1.30;
   padding: 12px 10px;
   color: #323232;
+  margin-right: 40px;
   box-sizing: content-box;
   border-bottom: 1px solid transparent;
 }
@@ -15,11 +16,4 @@
 .header__submenu-item:hover {
   border-bottom: 1px solid #323232;
   cursor: pointer;
-}
-
-@media screen and (max-width: 800px) {
-  .header__submenu-item {
-    font-size: 14px;
-    padding: 16px 10px;
-  }
 }
