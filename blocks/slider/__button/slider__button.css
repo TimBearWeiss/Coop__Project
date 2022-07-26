@@ -1,0 +1,14 @@
+.slider__button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: fit-content;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 610px) {
+ .slider__button {
+   align-self: flex-start;
+   margin-top: 4px;
+ }
+}
