@@ -14,7 +14,7 @@
 	}
   }
     
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 	.actions__cards-item {
 		width: 336px;
 		height: 184px;

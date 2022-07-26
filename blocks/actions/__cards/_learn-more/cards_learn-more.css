@@ -1,5 +1,5 @@
 .cards_learn-more {
-  width: 98px;
+  width: 140px;
   height: 26px;
   font-family: PT Sans;
   font-size: 20px;
@@ -19,7 +19,7 @@
 	}
   }
     
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 	.cards_learn-more {
         width: 94px;
         height: 16px;
