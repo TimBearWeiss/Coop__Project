@@ -5,6 +5,13 @@
   background-color: #A5CDAB;
 }
 
+@media (min-width: 601px) and (max-width: 1439px) {
+	.round-btn_color_green {
+    width: 32px;
+    height: 32px;
+	}
+  }
+  
 @media screen and (max-width: 1220px) {
   .round-btn_color_green {
     width: 32px;

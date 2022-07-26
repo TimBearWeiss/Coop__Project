@@ -10,3 +10,16 @@
 	padding: 0;
 	cursor: pointer;
 }
+
+.popup__close-button:hover {
+	opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+	.popup__close-button {
+		width: 11.24px;
+		height: 11.43px;
+		top: 2.49px;
+		left: -13.88px;
+	}
+  }
