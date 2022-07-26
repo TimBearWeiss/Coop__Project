@@ -8,3 +8,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 460px) {
+	.news-feed  {
+		row-gap: 28px;
+	}
+}

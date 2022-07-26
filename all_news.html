@@ -1,13 +1,13 @@
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>Все новости</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-    <header class="header">
+    <header class="header header_bg_white">
         <nav class="header__nav">
           <img src="./images/logo.svg" alt="Logo" class="logo"/>
           <ul class="header__menu-list">
@@ -33,7 +33,7 @@
                 Главная страница / Все новости
             </div>
         </section>
-        <h2>Новости</h2>
+        <h2 class="journal__heading">Новости</h2>
         <section class="news-feed">
             <article class="news-feed__article">
                 <p class="news-feed__date">27.01.2022</p>
@@ -90,6 +90,16 @@
                 <p class="news-feed__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
             </article>
         </section>
+        <div class="paginator">
+            <button class="paginator__left-button"></button>
+            <div class="paginator__numbers">
+            <a href="#" class="paginator__button paginator__button_active">1</a>
+            <a href="#" class="paginator__button">2</a>
+            <a href="#" class="paginator__button">...</a>
+            <a href="#" class="paginator__button">5</a>
+            </div>               
+            <button class="paginator__right-button"></button>         
+        </div>
     </main>
 
     <footer class="footer">
