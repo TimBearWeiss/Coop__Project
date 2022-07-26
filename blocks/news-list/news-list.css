@@ -1,23 +1,23 @@
-.slider-list__container {
+.news-list {
   display: flex;
   column-gap: 20px;
   overflow-x: scroll;
   height: 100%;
 }
 
-.slider-list__container::-webkit-scrollbar {
+.news-list::-webkit-scrollbar {
   background-color: #E7E4DE;
   border-radius: 2px;
   height: 4px;
 }
 
-.slider-list__container::-webkit-scrollbar-thumb {
+.news-list::-webkit-scrollbar-thumb {
   background: #000;
   border-radius: 2px;
 }
 
-@media screen and (max-width: 460px) {
-  .slider-list__container {
+@media screen and (max-width: 610px) {
+  .news-list {
     flex-direction: column;
     overflow-x: unset;
   }

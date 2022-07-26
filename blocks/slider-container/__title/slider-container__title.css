@@ -1,4 +1,4 @@
-.slider-list__title {
+.slider-container__title {
   font-size: 46px;
   font-weight: 400;
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1220px) {
-  .slider-list__title {
+  .slider-container__title {
     font-size: 30px;
   }
 }
