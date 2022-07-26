@@ -39,5 +39,7 @@
   }
   .journal-card:hover {
     opacity: 1;
+    z-index: 3;
+    transition: .3s ease;
   }
 }
