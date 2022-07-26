@@ -1,5 +1,22 @@
 .about__container-row {
 	max-width: 1163px;
 	max-height: 330px;
-	margin-right: 245px;
+	margin: 0;
+	padding-right: 245px;
 }
+
+@media (min-width: 677px) and (max-width: 1416px) {
+	.about__container-row {
+		padding-right: 76px;
+		min-width: 676px;
+		max-height: 259px;
+	}
+  }
+    
+@media screen and (max-width: 676px) {
+	.about__container-row {
+		padding-right: 12px;
+		min-width: 336px;
+		max-height: 338px;
+	}
+  }
