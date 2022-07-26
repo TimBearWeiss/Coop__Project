@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 762px) {
   .container__heading {
     font-size: 32px;
     line-height: 120%;

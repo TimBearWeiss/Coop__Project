@@ -21,11 +21,6 @@
 @import url('../blocks/actions/__cards/_item-link/actions__cards_item-link.css');
 @import url('../blocks/actions/__cards/_learn-more/cards_learn-more.css');
 
-@import url('../blocks/materials/materials.css');
-@import url('../blocks/materials/__container/materials__container.css');
-@import url('../blocks/materials/__container-row/materials__container-row.css');
-@import url('../blocks/container/__heading/container__heading.css');
-
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__bage/card__bage.css');
 @import url('../blocks/card/__excerpt/card__excerpt.css');
@@ -77,7 +72,6 @@
 
 @import url('../blocks/popup/__close-button/popup__close-button.css');
 @import url('../blocks/btn/__image/btn__image.css');
-@import url('../blocks/btn/btn.css');
 
 @import url('../blocks/special-projects/special-projects.css');
 @import url('../blocks/special-projects/__heading/special-projects__heading.css');
@@ -111,10 +105,15 @@
 @import url('../blocks/slider/__round-btn/slider__round-btn.css');
 @import url('../blocks/slider/_height/slider_height_big.css');
 
-@import url('../blocks/slider-container/slider-container.css');
+@import url('../blocks/slider-list/slider-list.css');
+@import url('../blocks/slider-list/__title/slider-list__title.css');
+@import url('../blocks/slider-list/__header/slider-list__header.css');
+@import url('../blocks/slider-list/__container/slider-list__container.css');
+@import url('../blocks/slider-list/__buttons/slider-list__buttons.css');
+/** @import url('../blocks/slider-container/slider-container.css');
 @import url('../blocks/slider-container/__title/slider-container__title.css');
 @import url('../blocks/slider-container/__header/slider-container__header.css');
-@import url('../blocks/slider-container/__buttons/slider-container__buttons.css');
+@import url('../blocks/slider-container/__buttons/slider-container__buttons.css'); **/
 
 @import url('../blocks/news-card/news-card.css');
 @import url('../blocks/news-card/__image/news-card__image.css');
