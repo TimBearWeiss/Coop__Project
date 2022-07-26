@@ -23,3 +23,19 @@
   left: calc(50% - 187px / 2);
   top: -16px;
 }
+
+@media screen and (max-width: 1140px) {
+  .card__bage {
+    width: 134px;
+    left: calc(50% - 134px / 2);
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card__bage {
+    width: 108px;
+    left: calc(50% - 108px / 2);
+  }
+}

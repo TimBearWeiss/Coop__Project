@@ -1,3 +1,4 @@
+
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
 @import url('../blocks/page/page.css');
@@ -69,6 +70,7 @@
 @import url('../blocks/career/__title/career__title.css');
 @import url('../blocks/career/__text/career__text.css');
 @import url('../blocks/career/__actions/career__actions.css');
+@import url(../blocks/career/__title-mobile/career__title-mobile.css);
 
 @import url('../blocks/btn/btn.css');
 @import url('../blocks/btn/_color/btn_color_green.css');
@@ -120,3 +122,4 @@
 @import url('../blocks/news-feed/__image/news-feed__image.css');
 @import url('../blocks/news-feed/__tag/news-feed__tag.css');
 @import url('../blocks/news-feed/__text/news-feed__text.css');
+
