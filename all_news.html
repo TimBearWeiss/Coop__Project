@@ -6,24 +6,140 @@
     <title>Home page</title>
     <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-    <header class="header">
-        <nav class="header__nav nav">
-
+<body class="page">
+    <header class="header header_bg_white">
+        <nav class="header__nav">
+          <img src="./images/logo.svg" alt="Logo" class="logo"/>
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a href="https://prozhito.org/page/archive" class="link">Архив</a></li>
+            <li class="header__menu-item"><a href="https://prozhito.org/persons" class="link">Корпус</a></li>
+            <li class="header__menu-item header__about-project"><a href="#" class="link">О&nbsp;проекте</a></li>
+          </ul>
+          <button class="header__mobile-menu"></button>
         </nav>
-    </header>
+        <ul class="header__submenu-list">
+          <li class="header__menu-item"><a href="#" class="link">О&nbsp;прожито</a></li>
+          <li class="header__menu-item"><a href="#" class="link">Как&nbsp;работать?</a></li>
+          <li class="header__menu-item"><a href="#" class="link">Медиа</a></li>
+          <li class="header__menu-item"><a href="#" class="link">Новости</a></li>
+          <li class="header__menu-item"><a href="#" class="link">Спецпроекты</a></li>
+        </ul>
+        <script src="./scripts/submenu.js"></script>
+      </header>
 
     <main class="main">
-        <section class="section breadcrumbs">
-            <div class="container breadcrumbs__container"></div>
+        <section class="breadcrumbs">
+            
+            <a href="index.html" target="_blank" class="breadcrumbs__link">Главная страница</a> / <a href="all_news.html" class="breadcrumbs__link">Все новости</a>
+        
         </section>
-        <section class="section news_posts">
-            <div class="container news_posts__container"></div>
+        <h2 class="page-title">Новости</h2>
+        <section class="news-feed">
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Спецпроект</p>
+                <img src="./images/news1.jpeg" alt="книга" class="news-feed__image">
+                <p class="news-feed__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag"></p>
+                <img src="./images/news2.jpeg" alt="книги" class="news-feed__image">
+                <p class="news-feed__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Лекция</p>
+                <img src="./images/news3.jpeg" alt="тетрадь" class="news-feed__image">
+                <p class="news-feed__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag"></p>
+                <img src="./images/news2.jpeg" alt="книги" class="news-feed__image">
+                <p class="news-feed__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию, посвящённую работе с дембельскими альбомами</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Спецпроект</p>
+                <img src="./images/news1.jpeg" alt="книга" class="news-feed__image">
+                <p class="news-feed__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Лекция</p>
+                <img src="./images/news3.jpeg" alt="тетрадь" class="news-feed__image">
+                <p class="news-feed__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Лекция</p>
+                <img src="./images/news3.jpeg" alt="тетрадь" class="news-feed__image">
+                <p class="news-feed__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Спецпроект</p>
+                <img src="./images/news1.jpeg" alt="книга" class="news-feed__image">
+                <p class="news-feed__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии «Библиотека Прожито. Блокада»</p>
+            </article>
+            <article class="news-feed__article">
+                <p class="news-feed__date">27.01.2022</p>
+                <p class="news-feed__tag">Лекция</p>
+                <img src="./images/news3.jpeg" alt="тетрадь" class="news-feed__image">
+                <p class="news-feed__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб</p>
+            </article>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="container footer__container"></div>
-    </footer>
+        <nav class="footer__nav">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item"><a href="#" class="link">О&nbsp;команде</a></li>
+            <li class="footer__menu-item"><a href="#" class="link">Благодарности</a></li>
+            <li class="footer__menu-item"><a href="#" class="link">Партнёры</a></li>
+            <li class="footer__menu-item"><a href="#" class="link">FAQ</a></li>
+            <li class="footer__menu-item"><a href="#" class="link">Инструкции</a></li>
+          </ul>
+        </nav>
+        <div class="footer__info">
+          <div class="footer__about">
+            <img src="./images/logo.svg" alt="Logo" class="logo"/>
+            <div class="footer__social-list">
+              <a class="footer__social-item" href="https://t.me/prozhito" target="_blank">
+                <img src="./images/components/telegram.svg" alt="Telegram" class="footer__social-image">
+                <p class="footer__social-name">Телеграм</p>
+              </a>
+              <a class="footer__social-item" href="https://vk.com/prozhito" target="_blank">
+                <img src="./images/components/vk.svg" alt="VK" class="footer__social-image">
+                <p class="footer__social-name">Вконтакте</p>
+              </a>
+            </div>
+          </div>
+          <div class="footer__politics-list">
+            <a class="footer__politics-item" href="#" target="_blank">Юридическая информация</a>
+            <a class="footer__politics-item" href="#" target="_blank">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </footer>
+      <div class="popup popup-menu">
+        <div class="popup-menu__header">
+          <img src="./images/logo.svg" alt="Logo" class="logo"/>
+          <button class="popup-menu__close-button"></button>
+        </div>
+        <ul class="popup-menu__menu-list">
+          <li class="popup-menu__menu-item"><a href="https://prozhito.org/page/archive" class="link">Архив</a></li>
+          <li class="popup-menu__menu-item"><a href="https://prozhito.org/persons" class="link">Корпус</a></li>
+          <li class="popup-menu__menu-item"><a href="#" class="link">О&nbsp;проекте</a></li>
+        </ul>
+        <ul class="popup-menu__menu-list">
+          <li class="popup-menu__menu-item"><a href="#" class="link">О&nbsp;прожито</a></li>
+          <li class="popup-menu__menu-item"><a href="#" class="link">Как&nbsp;работать?</a></li>
+          <li class="popup-menu__menu-item"><a href="#" class="link">Медиа</a></li>
+          <li class="popup-menu__menu-item"><a href="#" class="link">Новости</a></li>
+          <li class="popup-menu__menu-item"><a href="#" class="link">Спецпроекты</a></li>
+        </ul>
+      </div>
+      <script src="./scripts/headerMenu.js"></script>
 </body>
 </html>

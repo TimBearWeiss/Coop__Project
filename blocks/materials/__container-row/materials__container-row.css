@@ -2,7 +2,14 @@
   max-width: 1144px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 80px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* gap: 80px; */
   margin: 0 auto 0 auto;
 }
+
+/* @media screen and (max-width: 1023px) {
+  .materials__container-row {
+    gap: 12px;
+  }
+} */
