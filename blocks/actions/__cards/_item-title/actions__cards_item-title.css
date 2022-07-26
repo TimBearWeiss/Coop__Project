@@ -16,7 +16,7 @@
 	}
   }
     
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 	.actions__cards_item-title {
 		width: 312px;
 		height: 32px;

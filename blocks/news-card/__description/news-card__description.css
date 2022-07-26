@@ -5,6 +5,7 @@
   font-family: 'PT', 'Arial', sans-serif;
   color: rgba(50, 50, 50, 0.6);
   line-height: 1.2;
+  height: 130px;
 }
 
 @media screen and (max-width: 1220px) {
@@ -15,8 +16,9 @@
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 610px) {
   .news-card__description {
     grid-row: 2;
+    height: 54px;
   }
 }

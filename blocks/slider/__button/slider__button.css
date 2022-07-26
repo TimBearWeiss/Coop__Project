@@ -4,9 +4,11 @@
   align-items: center;
   width: fit-content;
   align-self: flex-end;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 610px) {
  .slider__button {
    align-self: flex-start;
    margin-top: 4px;

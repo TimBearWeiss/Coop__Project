@@ -20,7 +20,7 @@
 	}
   }
     
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
 	.actions__cards-item-text {
 		width: 312px;
 		height: 54px;

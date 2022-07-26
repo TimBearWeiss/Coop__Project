@@ -105,15 +105,10 @@
 @import url('../blocks/slider/__round-btn/slider__round-btn.css');
 @import url('../blocks/slider/_height/slider_height_big.css');
 
-@import url('../blocks/slider-list/slider-list.css');
-@import url('../blocks/slider-list/__title/slider-list__title.css');
-@import url('../blocks/slider-list/__header/slider-list__header.css');
-@import url('../blocks/slider-list/__container/slider-list__container.css');
-@import url('../blocks/slider-list/__buttons/slider-list__buttons.css');
-/** @import url('../blocks/slider-container/slider-container.css');
+@import url('../blocks/slider-container/slider-container.css');
 @import url('../blocks/slider-container/__title/slider-container__title.css');
 @import url('../blocks/slider-container/__header/slider-container__header.css');
-@import url('../blocks/slider-container/__buttons/slider-container__buttons.css'); **/
+@import url('../blocks/slider-container/__buttons/slider-container__buttons.css');
 
 @import url('../blocks/news-card/news-card.css');
 @import url('../blocks/news-card/__image/news-card__image.css');
@@ -146,7 +141,6 @@
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
 @import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
 @import url('../blocks/main/main.css');
-@import url('../blocks/main/__title/main__title.css');
 @import url('../blocks/page-title/page-title.css');
 
 @import url('../blocks/news-list/news-list.css');
@@ -158,3 +152,5 @@
 @import url('../blocks/paginator/__right-button/paginator__right-button.css');
 @import url('../blocks/paginator/__numbers/paginator__numbers.css');
 @import url('../blocks/paginator/__button/_active/paginator__button_active.css');
+
+@import url('../blocks/journal/__heading/journal__heading.css');

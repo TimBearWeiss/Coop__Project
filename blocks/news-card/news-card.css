@@ -3,6 +3,11 @@
   grid-template-columns: 89px 212px;
   grid-template-rows: 223px max-content;
   column-gap: 28px;
+  cursor: pointer;
+}
+
+.news-card:hover {
+  opacity: .8;
 }
 
 @media screen and (max-width: 1220px) {
@@ -13,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 610px) {
   .news-card {
     grid-template-columns: 1fr;
     grid-template-rows: 160px max-content 24px;

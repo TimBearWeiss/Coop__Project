@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 610px) {
   .slider__title {
     color: #323232;
     font-size: 32px;
