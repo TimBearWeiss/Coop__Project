@@ -177,7 +177,7 @@
   }
   
   .article .gallery .gallery__button-right {
-    background-image: url(../../images/arrow-right.svg);
+    background-image: url(../../images/components/right-arrow.svg);
     background-color: transparent;
     width: 18px;
     height: 10px;
@@ -198,8 +198,7 @@
   }
   
   .article .gallery .gallery__button-left {
-    background-image: url(../../images/arrow.svg);
-    transform: scale(-1,1);
+    background-image: url(../../images/components/left-arrow.svg);
     background-color: transparent;
     width: 18px;
     height: 10px;
