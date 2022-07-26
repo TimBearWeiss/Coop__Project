@@ -1,0 +1,18 @@
+.post_type-three-text {
+    width: 295px;
+    height: 108px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0 16.05px 24px 16.95px;    
+}
+
+@media screen and (max-width: 1439px) {
+	.post_type-three-text {
+       visibility: hidden;
+	}
+  }
