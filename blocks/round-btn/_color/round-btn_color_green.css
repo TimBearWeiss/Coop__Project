@@ -4,3 +4,10 @@
   border-radius: 25px;
   background-color: #A5CDAB;
 }
+
+@media screen and (max-width: 1220px) {
+  .round-btn_color_green {
+    width: 32px;
+    height: 32px;
+  }
+}
