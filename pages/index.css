@@ -70,7 +70,7 @@
 @import url('../blocks/career/__title/career__title.css');
 @import url('../blocks/career/__text/career__text.css');
 @import url('../blocks/career/__actions/career__actions.css');
-@import url(../blocks/career/__title-mobile/career__title-mobile.css);
+@import url('../blocks/career/__title-mobile/career__title-mobile.css');
 
 @import url('../blocks/btn/btn.css');
 @import url('../blocks/btn/_color/btn_color_green.css');
@@ -113,11 +113,10 @@
 @import url('../blocks/slider/__round-btn/slider__round-btn.css');
 @import url('../blocks/slider/_height/slider_height_big.css');
 
-@import url('../blocks/slider-list/slider-list.css');
-@import url('../blocks/slider-list/__title/slider-list__title.css');
-@import url('../blocks/slider-list/__header/slider-list__header.css');
-@import url('../blocks/slider-list/__container/slider-list__container.css');
-@import url('../blocks/slider-list/__buttons/slider-list__buttons.css');
+@import url('../blocks/slider-container/slider-container.css');
+@import url('../blocks/slider-container/__title/slider-container__title.css');
+@import url('../blocks/slider-container/__header/slider-container__header.css');
+@import url('../blocks/slider-container/__buttons/slider-container__buttons.css');
 
 @import url('../blocks/news-card/news-card.css');
 @import url('../blocks/news-card/__image/news-card__image.css');
@@ -146,9 +145,6 @@
 @import url('../blocks/news-feed/__tag/news-feed__tag.css');
 @import url('../blocks/news-feed/__text/news-feed__text.css');
 
-
-
-
 @import url('../blocks/header/_bg/header_bg_white.css');
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
 @import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
@@ -156,3 +152,5 @@
 @import url('../blocks/main/__title/main__title.css');
 @import url('../blocks/page-title/page-title.css');
 
+@import url('../blocks/news-list/news-list.css');
+@import url('../blocks/journal-list/journal-list.css');
