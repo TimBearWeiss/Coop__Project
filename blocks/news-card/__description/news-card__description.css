@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 460px) {
   .news-card__description {
     grid-row: 2;
   }

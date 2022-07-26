@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 460px) {
   .news-card__info {
     row-gap: 0;
     flex-direction: row;

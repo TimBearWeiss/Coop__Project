@@ -6,3 +6,17 @@
 	width: 560.17px;
 	height: 274px;
 }
+
+@media screen and (max-width: 1439px) {
+	.actions__cards-item {
+		width: 362px;
+		height: 212px;
+	}
+  }
+    
+@media screen and (max-width: 600px) {
+	.actions__cards-item {
+		width: 336px;
+		height: 184px;
+	}
+  }

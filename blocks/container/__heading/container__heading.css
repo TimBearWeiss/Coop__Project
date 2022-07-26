@@ -9,3 +9,19 @@
   margin: 0 auto 40px auto;
   padding-top: 56px;
 }
+
+@media screen and (max-width: 1140px) {
+  .container__heading {
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0 auto 24px auto;
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .container__heading {
+    font-size: 32px;
+    line-height: 120%;
+  }
+}
