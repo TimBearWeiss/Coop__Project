@@ -1,0 +1,6 @@
+.news-feed__article {
+    display: grid;
+    grid-template-columns: 1fr 212px;
+    grid-template-rows: 18px 1fr 130px;
+    max-width: 328px;
+}
